@@ -8,6 +8,8 @@ body{
    /* font-family: 'Caveat', cursive;*/
     font-family: 'Kalam', cursive;
 }
+
+
 #btn-translate
 {
     background-color :var(--primary-color);
@@ -24,13 +26,16 @@ body{
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     font-size:200%;
   }
-#textarea-input
+
+.textarea-input
 {
     display:block;
     padding: 1rem 1rem;
     margin-bottom: 1rem;
+    width:70%;
+    /*
     max-width: 100%;
-    width:650px;
+   width:650px;*/
     height:10vh;
     margin-left: auto;
     margin-right: auto;
@@ -39,12 +44,13 @@ body{
     resize: horizontal;
     
 }
-#output-area
+.output-area
 {
     margin-top: 1rem;
     display:block;
     padding: 1rem 1rem;
-    width:650px;
+    width:70%;
+   /* width:650vw;*/
     height:10vh;
     border: 1px solid black;
     margin-left: auto;
